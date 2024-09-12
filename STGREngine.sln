@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STGREngine", "STGREngine\STGREngine.vcxproj", "{D6162689-012D-466D-9646-F282A83477B7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STGREngineSource", "STGREngineSource\STGREngineSource.vcxitems", "{7889F288-3415-4585-88F5-8710E506BBF5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STGREngineWindow", "STGREngineWindow\STGREngineWindow.vcxproj", "{A33BD9F0-3312-4CB6-BC46-4246FDE8922D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6162689-012D-466D-9646-F282A83477B7}.Debug|x64.ActiveCfg = Debug|x64
+		{D6162689-012D-466D-9646-F282A83477B7}.Debug|x64.Build.0 = Debug|x64
+		{D6162689-012D-466D-9646-F282A83477B7}.Debug|x86.ActiveCfg = Debug|Win32
+		{D6162689-012D-466D-9646-F282A83477B7}.Debug|x86.Build.0 = Debug|Win32
+		{D6162689-012D-466D-9646-F282A83477B7}.Release|x64.ActiveCfg = Release|x64
+		{D6162689-012D-466D-9646-F282A83477B7}.Release|x64.Build.0 = Release|x64
+		{D6162689-012D-466D-9646-F282A83477B7}.Release|x86.ActiveCfg = Release|Win32
+		{D6162689-012D-466D-9646-F282A83477B7}.Release|x86.Build.0 = Release|Win32
+		{A33BD9F0-3312-4CB6-BC46-4246FDE8922D}.Debug|x64.ActiveCfg = Debug|x64
+		{A33BD9F0-3312-4CB6-BC46-4246FDE8922D}.Debug|x64.Build.0 = Debug|x64
+		{A33BD9F0-3312-4CB6-BC46-4246FDE8922D}.Debug|x86.ActiveCfg = Debug|Win32
+		{A33BD9F0-3312-4CB6-BC46-4246FDE8922D}.Debug|x86.Build.0 = Debug|Win32
+		{A33BD9F0-3312-4CB6-BC46-4246FDE8922D}.Release|x64.ActiveCfg = Release|x64
+		{A33BD9F0-3312-4CB6-BC46-4246FDE8922D}.Release|x64.Build.0 = Release|x64
+		{A33BD9F0-3312-4CB6-BC46-4246FDE8922D}.Release|x86.ActiveCfg = Release|Win32
+		{A33BD9F0-3312-4CB6-BC46-4246FDE8922D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {625EE3E2-12C0-4769-9911-E44EEF66C326}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		STGREngineSource\STGREngineSource.vcxitems*{7889f288-3415-4585-88f5-8710e506bbf5}*SharedItemsImports = 9
+		STGREngineSource\STGREngineSource.vcxitems*{a33bd9f0-3312-4cb6-bc46-4246fde8922d}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal
